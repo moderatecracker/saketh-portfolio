@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
-import { IMAGES, getImageSrc } from '../constants/images';
+// import { IMAGES, getImageSrc } from '../constants/images';
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +29,7 @@ const Navigation: React.FC = () => {
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-blue-600 dark:bg-blue-400 rounded-full flex items-center justify-center overflow-hidden">
               <img
-                src={getImageSrc(IMAGES.profile.avatar, IMAGES.fallback.profile)}
-                alt="Siva Saketh Reddy"
+                src="/images/profile/profile.jpeg"
                 className="w-full h-full object-cover"
               />
             </div>

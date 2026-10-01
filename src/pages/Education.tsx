@@ -37,39 +37,39 @@ const Education: React.FC = () => {
   const certificates = [
     {
       name: 'Launchpad for Indian Motorsports',
-      image: '/images/education/1.jpg',
+      image: '/images/education/3.jpeg',
     },
     {
       name: 'SUPRA SAEINDIA 2025 Student Formula 2025',
-      image: '/images/education/2.jpg',
+      image: '/images/education/1.jpeg',
     },
     {
       name: 'F1 Training Workshop',
-      image: '/images/education/3.jpg',
+      image: '/images/education/4.jpeg',
     },
     {
       name: 'Internship at MGB Motors Nellore',
-      image: '/images/education/4.jpg',
+      image: '/images/education/7.jpeg',
     },
     {
       name: 'Horse Riding – Show Jumping',
-      image: '/images/education/5.jpg',
+      image: '/images/education/5.png',
     },
     {
-      name: 'SUPRA SAEINDIA 2025 Student Formula 2024',
-      image: '/images/education/6.jpg',
+      name: 'SUPRA SAEINDIA 2024 Student Formula 2024',
+      image: '/images/education/2.jpeg',
     },
     {
       name: 'Royal Enfield Training Hub',
-      image: '/images/education/7.jpg',
+      image: '/images/education/9.jpeg',
     },
     {
       name: 'Vespa and Aprilia Internship',
-      image: '/images/education/8.jpg',
+      image: '/images/education/8.jpeg',
     },
     {
       name: '2nd Place – Horse Riding',
-      image: '/images/education/9.jpg',
+      image: '/images/education/6.jpeg',
     },
   ];
 

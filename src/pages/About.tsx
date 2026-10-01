@@ -265,42 +265,6 @@ const About: React.FC = () => {
                 performance-oriented vehicles.
               </motion.p>
 
-              {/* CONTACT */}
-
-              <motion.div
-                className="flex flex-wrap items-center gap-5 mb-6"
-                initial={{
-                  opacity: 0,
-                  x: -20,
-                }}
-                animate={{
-                  opacity: 1,
-                  x: 0,
-                }}
-                transition={{
-                  duration: 0.6,
-                  delay: 0.7,
-                }}
-              >
-
-                <a
-                  href="tel:+917729999984"
-                  className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                >
-                  <span className="font-semibold">Phone:</span>{' '}
-                  +91 77299 9984
-                </a>
-
-                <a
-                  href="mailto:23mu0910003@student.hindustanuniv.ac.in"
-                  className="text-sm text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                >
-                  <span className="font-semibold">Email:</span>{' '}
-                  23mu0910003@student.hindustanuniv.ac.in
-                </a>
-
-              </motion.div>
-
               {/* SOCIAL */}
 
               <motion.div
@@ -408,7 +372,7 @@ const About: React.FC = () => {
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-blue-200 dark:border-blue-800">
 
                   <img
-                    src="/public/images/profile/profile.jpeg"
+                    src="/images/profile/profile.jpeg"
                     alt="Siva Saketh Reddy - Automobile Engineering Student"
                     className="w-full h-full object-cover"
                   />
