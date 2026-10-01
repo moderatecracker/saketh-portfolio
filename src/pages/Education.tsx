@@ -22,7 +22,7 @@ const Education: React.FC = () => {
       location: 'Chennai, India',
       period: '2023 – 2027',
       result: 'Current CGPA: 8.1',
-      logo: '/images/education/hitslogo.png',
+      logo: '/images/companies/hid.png',
     },
     {
       degree: 'Class XII',
@@ -30,7 +30,7 @@ const Education: React.FC = () => {
       location: 'India',
       period: '2021 – 2023',
       result: '83%',
-      logo: '/images/education/narayanalogo.jpg',
+      logo: '/images/companies/nar.png',
     },
   ];
 
