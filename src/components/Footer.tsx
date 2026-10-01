@@ -3,9 +3,9 @@ import { Icon } from '@iconify/react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { name: 'GitHub', icon: 'mdi:github', url: 'https://github.com/setusairam' },
-    { name: 'LinkedIn', icon: 'mdi:linkedin', url: 'https://www.linkedin.com/in/setusairam-y/' },
-    { name: 'Twitter', icon: 'mdi:twitter', url: 'https://x.com/itsSSR_10' },
+    // { name: 'GitHub', icon: 'mdi:github', url: 'https://github.com/setusairam' },
+    { name: 'LinkedIn', icon: 'mdi:linkedin', url: 'https://www.linkedin.com/' },
+    { name: 'Twitter', icon: 'mdi:twitter', url: 'https://x.com/' },
     { name: 'Instagram', icon: 'mdi:instagram', url: 'https://instagram.com' },
     // { name: 'Dev.to', icon: 'mdi:dev-to', url: 'https://dev.to' },
   ];
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             ))}
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Made with ❤️ by Setu Sai Ram Yarlagadda
+            Made with React js
           </p>
         </div>
       </div>

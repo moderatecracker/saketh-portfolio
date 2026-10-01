@@ -302,13 +302,15 @@ const Contact: React.FC = () => {
               Send me an email
             </a>
 
-            <button
-              onClick={handleResumeDownload}
-              className="inline-flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-white px-7 py-3 rounded-lg border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 transition-all duration-300 font-medium shadow-sm"
-            >
-              <Download className="w-5 h-5" />
-              View Resume
-            </button>
+            <a
+  href="https://drive.google.com/file/d/1FMhPdIS40kzbdrn0vqhfE2mND8KQNs90/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center gap-2 bg-white dark:bg-gray-800 text-gray-800 dark:text-white px-7 py-3 rounded-lg border border-gray-300 dark:border-gray-700 hover:border-blue-400 dark:hover:border-blue-500 transition-all duration-300 font-medium shadow-sm"
+>
+  <Download className="w-5 h-5" />
+  View Resume
+</a>
           </div>
         </section>
 
